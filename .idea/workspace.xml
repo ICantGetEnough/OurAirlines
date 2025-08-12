@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f958cda3-572a-4e5f-9a50-5852145dccc1" name="Changes" comment="feat(docker): &#10;Added docker-compose file to common project name">
+    <list default="true" id="f958cda3-572a-4e5f-9a50-5852145dccc1" name="Changes" comment="feat(project): &#10;- Add new project &quot;airport-service&quot; with default dependencies">
+      <change afterPath="$PROJECT_DIR$/airport-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,23 +35,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/docker-compose" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ICantGetEnough"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ICantGetEnough&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ICantGetEnough/OurAirlines.git",
-    "accountId": "c868caf5-f80c-4cbf-b115-40ac4e3d98d9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ICantGetEnough/OurAirlines.git&quot;,
+    &quot;accountId&quot;: &quot;c868caf5-f80c-4cbf-b115-40ac4e3d98d9&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -70,7 +73,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "git-widget-placeholder": "dev",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/compose-config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,7 +112,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754846128171</updated>
-      <workItem from="1754846130062" duration="3291000" />
+      <workItem from="1754846130062" duration="5868000" />
+      <workItem from="1754916796977" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -134,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754848526545</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat(project): &#10;- Add new project &quot;airport-service&quot; with default dependencies">
+      <option name="closed" value="true" />
+      <created>1754852157490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754852157490</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="feat(docker): &#10;Added docker-compose file to common project name" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(docker): &#10;Added docker-compose file to common project name" />
+    <MESSAGE value="feat(project): &#10;- Add new project &quot;airport-service&quot; with default dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(project): &#10;- Add new project &quot;airport-service&quot; with default dependencies" />
   </component>
 </project>

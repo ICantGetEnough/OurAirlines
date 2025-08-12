@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: airport-service
+  profiles:
+    active: docker
+
+
+server:
+  port: 8080

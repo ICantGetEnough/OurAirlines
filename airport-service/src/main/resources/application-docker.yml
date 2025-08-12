@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${AIRPORTS_DB_HOST:airports-db}:${AIRPORTS_DB_PORT:5432}/${AIRPORTS_DB_NAME:airports}
+    username: ${AIRPORTS_DB_USER:airports_user}
+    password: ${AIRPORTS_DB_PASS:airports_pass}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true

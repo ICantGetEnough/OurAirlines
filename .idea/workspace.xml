@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f958cda3-572a-4e5f-9a50-5852145dccc1" name="Changes" comment="feat(compose):&#10;- Added docker-compose.yml with airport-service and his DB&#10;- Configured application.yml for Docker environment&#10;- Linked service and DB via environment variables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airport-service/src/test/java/com/example/airportservice/AirportServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/airport-service/src/test/java/com/example/airportservice/AirportServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/airport-service/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "feature/airport-service/build-gradle",
     "last_opened_file_path": "C:/Travel/our-airlines",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -143,7 +143,7 @@
       <workItem from="1755016376925" duration="77000" />
       <workItem from="1755016491523" duration="101000" />
       <workItem from="1755016628332" duration="218000" />
-      <workItem from="1755024727683" duration="1326000" />
+      <workItem from="1755024727683" duration="1731000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
